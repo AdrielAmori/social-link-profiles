@@ -1,0 +1,75 @@
+/* Estilos Globais */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Estilos do Card */
+#card {
+  background-color: #1F1F1F;
+  width: 400px;
+  height: 700px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+}
+
+#card-header p:first-of-type {
+  margin-top: 0; /* Remove a margem superior do primeiro parágrafo */
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 5px; /* Ajuste este valor conforme necessário */
+}
+
+#local {
+  color: hsl(75, 94%, 57%);
+}
+
+/* Estilos da Imagem */
+img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+img:hover {
+  border: 2px solid #E2E2E2;
+}
+
+/* Estilos do Botão */
+button {
+  width: 320px;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #333333;
+  color: #E2E2E2;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
